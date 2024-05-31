@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astro-commerce</title>
+    <link rel="icon" href="./favicon.svg" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="body">
+    <div>
+      <header>
+        <div class="hero-wrapper">
+          <div class="hero-container">
+            <nav class="top-nav">
+              <img class="icon" src="./home/logo.svg" alt="home page logo" />
+              <div class="hide-nav-links">
+                <ul>
+                  <li>HOME</li>
+                  <li>HEADPHONES</li>
+                  <li>SPEAKERS</li>
+                  <li>EARPHONES</li>
+                </ul>
+              </div>
+              <img
+                id="cart-icon"
+                class="icon"
+                src="./home/icon-cart.svg"
+                alt="cart icon"
+              />
+            </nav>
+            <div id="hidden-cart" class="hidden-cart">
+              <div class="hidden-cart-1">
+                <h5>CART (3)</h5>
+                <p>Remove all</p>
+              </div>
+              <div class="flex-cart-items">
+                <div class="flex-input">
+                  <div class="cart-text-area">
+                    <img
+                      class="cart-image"
+                      src="./home/image-product-1.jpg"
+                      alt="headphone"
+                    />
+                    <div class="xx59-text">
+                      <h6>xx59</h6>
+                      <p>$ 899</p>
+                    </div>
+                  </div>
+                  <input class="counter" type="number" value="1" />
+                </div>
+                <div class="flex-input">
+                  <div class="cart-text-area">
+                    <img
+                      class="cart-image"
+                      src="./home/image-product-2.jpg"
+                      alt="headphone"
+                    />
+                    <div class="xx59-text">
+                      <h6>xx99 mk ii</h6>
+                      <p>$ 2,999</p>
+                    </div>
+                  </div>
+                  <input class="counter" type="number" value="1" />
+                </div>
+                <div class="flex-input">
+                  <div class="cart-text-area">
+                    <img
+                      class="cart-image"
+                      src="./home/image-product.jpg"
+                      alt="headphone"
+                    />
+                    <div class="xx59-text">
+                      <h6>yx1</h6>
+                      <p>$ 599</p>
+                    </div>
+                  </div>
+                  <input class="counter" type="number" value="1" />
+                </div>
+              </div>
+              <div class="hidden-cart-1">
+                <h5>TOTAL</h5>
+                <h5>$ 5,396</h5>
+              </div>
+              <button class="button-2">CHECKOUT</button>
+            </div>
+            <div class="nav-links">
+              <ul>
+                <li>HOME</li>
+                <li>HEADPHONES</li>
+                <li>SPEAKERS</li>
+                <li>EARPHONES</li>
+              </ul>
+            </div>
+            <div class="hero-texts">
+              <!-- <img class="hero-image" src="./home/desktop/image-hero.jpg" alt="" /> -->
+              <h2>NEW PRODUCT</h2>
+              <h1>XX99 Mark ll <br />Headphones</h1>
+              <p>
+                Experience natural, lifelike audio and exceptional build
+                <br />quality made for the passionate music emthusiast.
+              </p>
+              <button class="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="main">
+          <div class="product-div">
+            <img
+              class="product-image"
+              src="./home/image-category-thumbnail-headphones.png"
+              alt="headphone"
+            />
+            <h4>HEADPHONES</h4>
+            <p>Shop</p>
+          </div>
+          <div class="product-div">
+            <img
+              class="product-image"
+              src="./home/image-category-thumbnail-speakers.png"
+              alt="speaker"
+            />
+            <h4>SPEAKERS</h4>
+            <p>Shop</p>
+          </div>
+          <div class="product-div">
+            <img
+              class="product-image"
+              src="./home/image-category-thumbnail-earphones.png"
+              alt="earphone"
+            />
+            <h4>EARPHONES</h4>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="product-spotlight-center">
+            <div class="image-area">
+              <img
+                src="./home/image-category-thumbnail-speakers.png"
+                alt="speaker"
+                class="speaker-images"
+              />
+              <img
+                class="desktop-speaker-image"
+                src="./home/speaker.png"
+                alt="speaker"
+              />
+            </div>
+            <div class="text-area">
+              <h3>ZX9 SPEAKER</h3>
+              <p>
+                Experience natural, life like audio and exceptional build
+                <br />quality made for the passionate music enthusiast.
+              </p>
+              <button>SEE PRODUCT</button>
+            </div>
+          </div>
+
+          <div class="zx7-speaker">
+            <h3>ZX7 SPEAKER</h3>
+            <button>SEE PRODUCT</button>
+          </div>
+          <div class="earbuds"></div>
+          <div class="yx1-earphones">
+            <h3>YX1 EARPHONES</h3>
+            <button>SEE PRODUCT</button>
+          </div>
+        </div>
+        <div class="Last-main-div">
+          <div class="best-gear-div">
+            <img
+              class="best-gear"
+              src="./home/image-best-gear.jpg"
+              alt="best-gear"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="best-gear-text">
+            <h3>BRINGING YOU THE BEST AUDIO GEAR</h3>
+            <p>
+              Located at the heart of New York City, Audiophile is the premier
+              store for high end headphones, earphones, speakers, and audio
+              accessories. We have a large showroom and luxury demonstration
+              rooms available for you to browse and experience a wide range of
+              our products. Stop by our store to meet some of the fantastic
+              people who make Audiophile the best place to buy your portable
+              audio equipment.
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <nav class="footer-nav">
+          <div>
+            <img
+              class="last-logo-home"
+              src="./home/logo.svg"
+              alt="audiophile logo"
+            />
+          </div>
+          <div>
+            <ul class="footer-nav-links">
+              <a href="#"><li>HOME</li></a>
+              <a href="#"><li>HEADPHONES</li></a>
+              <a href="#"><li>SPEAKERS</li></a>
+              <a href="#"><li>EARPHONES</li></a>
+            </ul>
+          </div>
+        </nav>
+        <div class="flex-footer">
+          <div class="text-class">
+            <p id="first-footer-p">
+              Audiophile is an all in one stop to fulfill your audio needs.
+              We're a small team of music lovers and sound specialists who are
+              devoted to helping you get the most out of personal audio. Come
+              and visit our demo facility - we’re open 7 days a week.
+            </p>
+            <p>Copyright 2021. All Rights Reserved</p>
+          </div>
+          <div class="icon-class">
+            <div class="logo-div">
+              <img
+                class="last-icon"
+                src="./home/icon-facebook.svg"
+                alt="facebook logo"
+              />
+              <img
+                class="last-icon"
+                src="./home/icon-twitter.svg"
+                alt="X logo"
+              />
+              <img
+                class="last-icon"
+                src="./home/icon-instagram.svg"
+                alt="instagram logo"
+              />
+            </div>
+            <p id="last-footer-p">Built with ❤️ by Rarosuo Hope</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
